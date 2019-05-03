@@ -1,0 +1,143 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-09-18 07:30+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: templates/martor/editor.html:5
+msgid "Editor"
+msgstr "Редактор"
+
+#: templates/martor/editor.html:6
+msgid "Preview"
+msgstr "Предпросмотр"
+
+#: templates/martor/editor.html:11
+msgid "Uploading... please wait..."
+msgstr "Идет загрузка..."
+
+#: templates/martor/editor.html:18
+msgid "Nothing to preview"
+msgstr "Нет данных для просмотра"
+
+#: templates/martor/emoji.html:4
+msgid "Select Emoji to Insert"
+msgstr "Выберите Emoji для вставки"
+
+#: templates/martor/emoji.html:8
+msgid "Preparing emojis..."
+msgstr "Подготовка emoji..."
+
+#: templates/martor/guide.html:4
+msgid "Markdown Guide"
+msgstr "Руководство по Markdown"
+
+#: templates/martor/guide.html:6
+#, python-format
+msgid ""
+"This site is powered by Markdown. For full documentation, <a href="
+"\"%(doc_url)s\" target=\"_blank\">click here</a>"
+msgstr ""
+
+#: templates/martor/guide.html:10 templates/martor/toolbar.html:26
+msgid "Code"
+msgstr "Код"
+
+#: templates/martor/guide.html:11
+msgid "Or"
+msgstr "Или"
+
+#: templates/martor/guide.html:14
+msgid "... to Get"
+msgstr "Результат"
+
+#: templates/martor/toolbar.html:4
+msgid "Bold"
+msgstr "Жирный"
+
+#: templates/martor/toolbar.html:7
+msgid "Italic"
+msgstr "Курсив"
+
+#: templates/martor/toolbar.html:10
+msgid "Horizontal Line"
+msgstr "Горизонтальная линия"
+
+#: templates/martor/toolbar.html:13 templates/martor/toolbar.html:16
+#: templates/martor/toolbar.html:17 templates/martor/toolbar.html:18
+msgid "Heading"
+msgstr "Заголовок"
+
+#: templates/martor/toolbar.html:22
+msgid "Pre or Code"
+msgstr "Блок Pre или Code"
+
+#: templates/martor/toolbar.html:25
+msgid "Блок Pre"
+msgstr ""
+
+#: templates/martor/toolbar.html:29
+msgid "Quote"
+msgstr "Кавычки"
+
+#: templates/martor/toolbar.html:32
+msgid "Unordered List"
+msgstr "Маркированный список"
+
+#: templates/martor/toolbar.html:35
+msgid "Ordered List"
+msgstr "Нумерованный список"
+
+#: templates/martor/toolbar.html:39
+msgid "URL/Link"
+msgstr "URL/Ссылка"
+
+#: templates/martor/toolbar.html:42
+msgid "Insert Image Link"
+msgstr "Вставить изображение"
+
+#: templates/martor/toolbar.html:45 templates/martor/toolbar.html:47
+msgid "Upload an Image"
+msgstr "Загрузить изображение"
+
+#: templates/martor/toolbar.html:49
+msgid "Insert Emoji"
+msgstr "Вставить Emoji"
+
+#: templates/martor/toolbar.html:52
+msgid "Direct Mention a User"
+msgstr "Прямое упоминание пользователя"
+
+#: templates/martor/toolbar.html:56
+msgid "Full Screen"
+msgstr "На весь экран"
+
+#: templates/martor/toolbar.html:59
+msgid "Markdown Guide (Help)"
+msgstr "Руководство по Markdown"
+
+#: views.py:18 views.py:32 views.py:33
+msgid "Invalid request!"
+msgstr "Неверный запрос!"
+
+#: views.py:75
+#, python-format
+msgid "No users registered as `%(username)s` or user is unactived."
+msgstr "Ни один пользователь не зарегистрирован как `%(username)s` или пользователь неактивен."
+
+#: views.py:81
+msgid "Validation Failed for field `username`"
+msgstr "Ошибка проверки для поля `username`"
